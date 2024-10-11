@@ -67,15 +67,15 @@ Enter your Access Key ID, Secret Access Key, and default region name.
 
 ## How to Use
 
-**Launch the Application**:
+1. **Launch the Application**:
    ```bash
    streamlit run ragapp.py
 The application will open in your default web browser.
 
-**Upload PDFs**:
+2. **Upload PDFs**:
 - Go to the "Update Or Create Vector Store" sidebar option and click the "Vectors Update" button. This will process the PDF files in the data directory and create a vector store.
 
-**Ask Questions**:
+3. **Ask Questions**:
 - Type a question in the main input field and choose either "Claude Output" or "Llama2 Output" to retrieve responses. The application will process the question, retrieve relevant text chunks from the PDF, and provide a contextual answer.
 
 ## Example Usage
